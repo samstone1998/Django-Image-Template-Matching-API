@@ -1,0 +1,12 @@
+asgiref==3.5.0
+Django==4.0.2
+django-cors-headers==3.11.0
+django-db-logger==0.1.12
+django-restframework==0.0.1
+djangorestframework==3.13.1
+numpy==1.22.2
+opencv-python==4.5.5.62
+pytz==2021.3
+six==1.16.0
+sqlparse==0.4.2
+whitenoise==6.0.0

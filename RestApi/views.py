@@ -39,6 +39,7 @@ class template_check(APIView):
             threshold = request.data.get('threshold', False)
             if not threshold:
                 threshold = 0.8 # Default
+            # Regex to check if threshold is a number or decimal
             elif not re.search('^[+-]?((\\d+(\\.\\d*)?)|(\\.\\d+))$', threshold):
                 return Response({'error':'threshold must be a number'})
             else:
